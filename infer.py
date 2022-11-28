@@ -20,9 +20,9 @@ from networks import U2NET
 
 device = "cuda"
 
-image_dir = "input_images"
+image_dir = "/kaggle/input/mina-shop/mina_shop"
 result_dir = "output_images"
-checkpoint_path = os.path.join("cloth_segm_u2net_latest.pth")
+checkpoint_path = os.path.join("/kaggle/input/clother-segment/","cloth_segm_u2net_latest.pth")
 do_palette = True
 
 
